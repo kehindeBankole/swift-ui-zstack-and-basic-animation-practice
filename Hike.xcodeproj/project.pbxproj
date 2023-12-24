@@ -11,6 +11,11 @@
 		455521662B384BB500922872 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455521652B384BB500922872 /* ContentView.swift */; };
 		455521682B384BB700922872 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 455521672B384BB700922872 /* Assets.xcassets */; };
 		4555216B2B384BB700922872 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4555216A2B384BB700922872 /* Preview Assets.xcassets */; };
+		455521722B3850FD00922872 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455521712B3850FD00922872 /* CardView.swift */; };
+		455521752B38523E00922872 /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455521742B38523E00922872 /* CustomBackgroundView.swift */; };
+		455521782B38541500922872 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455521772B38541500922872 /* ColorExtension.swift */; };
+		4555217A2B3868B600922872 /* CustomCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455521792B3868B600922872 /* CustomCircleView.swift */; };
+		4555217C2B3869CC00922872 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4555217B2B3869CC00922872 /* MotionAnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		455521652B384BB500922872 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		455521672B384BB700922872 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4555216A2B384BB700922872 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		455521712B3850FD00922872 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		455521742B38523E00922872 /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
+		455521772B38541500922872 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		455521792B3868B600922872 /* CustomCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleView.swift; sourceTree = "<group>"; };
+		4555217B2B3869CC00922872 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +61,12 @@
 		455521622B384BB500922872 /* Hike */ = {
 			isa = PBXGroup;
 			children = (
+				455521762B3853F900922872 /* utils */,
 				455521632B384BB500922872 /* HikeApp.swift */,
 				455521652B384BB500922872 /* ContentView.swift */,
 				455521672B384BB700922872 /* Assets.xcassets */,
 				455521692B384BB700922872 /* Preview Content */,
+				455521732B38521000922872 /* components */,
 			);
 			path = Hike;
 			sourceTree = "<group>";
@@ -65,6 +77,25 @@
 				4555216A2B384BB700922872 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		455521732B38521000922872 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				455521712B3850FD00922872 /* CardView.swift */,
+				455521742B38523E00922872 /* CustomBackgroundView.swift */,
+				455521792B3868B600922872 /* CustomCircleView.swift */,
+				4555217B2B3869CC00922872 /* MotionAnimationView.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		455521762B3853F900922872 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				455521772B38541500922872 /* ColorExtension.swift */,
+			);
+			path = utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +169,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				455521662B384BB500922872 /* ContentView.swift in Sources */,
+				455521722B3850FD00922872 /* CardView.swift in Sources */,
 				455521642B384BB500922872 /* HikeApp.swift in Sources */,
+				455521752B38523E00922872 /* CustomBackgroundView.swift in Sources */,
+				4555217C2B3869CC00922872 /* MotionAnimationView.swift in Sources */,
+				455521782B38541500922872 /* ColorExtension.swift in Sources */,
+				4555217A2B3868B600922872 /* CustomCircleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
